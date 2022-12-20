@@ -7,18 +7,18 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Solicitud de taxis</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="../taxis/altaTaxis.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Gestión taxis
           </a>
           <ul class="dropdown-menu">
                 <li>
-                  <a class="nav-link" href="#">Alta nuevo taxi</a>
+                  <a class="nav-link" href="../taxis/altaTaxis.php">Alta nuevo taxi</a>
                 </li>
                 <li>
                   <a class="nav-link" href="#">Listado general de taxis</a>

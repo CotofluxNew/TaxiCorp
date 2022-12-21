@@ -1,4 +1,10 @@
 <?php 
+require_once('conexion/Conexion.php');
+//Fem la consulta a la taula cursos
+mysqli_select_db($conexion, $database);
+$query = "INSERT INTO taxis VALUES($matricula, $modelo, $nombre, $apellidos)";
+$result = mysqli_query($conexion, $query) or die(mysqli_error($conexion));
+$cursos = mysqli_fetch_assoc($result);
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +27,7 @@
     </header>
     <main>
       <h1>Alta de Taxis nuevos</h1>
-      <form id="basic-form" action="" method="post">
+      <form id="basic-form" action="insertar/nuevosTaxis.php" method="post">
           <p>
             <label for="matricula">Matricula</label>
             <input id="matricula" name="matricula" minlength="7" type="text" required>
@@ -31,8 +37,8 @@
             <input id="modelo" name="modelo" type="text" required>
           </p>
           <p>
-            <label for="name">Nombre</label>
-            <input id="name" name="name" minlength="3" type="text" required>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" minlength="3" type="text" required>
           </p>
           <p>
             <label for="apellidos">Apellidos</label>

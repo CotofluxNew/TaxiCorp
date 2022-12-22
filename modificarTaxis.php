@@ -54,7 +54,6 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form")) {
     $insertGoTo .= $_SERVER['QUERY_STRING'];
   }
   header(sprintf("Location: %s", $insertGoTo));
-  
 }
 
 ?>

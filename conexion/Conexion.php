@@ -3,8 +3,8 @@
     //Recollim les dades per crear la connexió
     $hostname = 'localhost';
     $user = 'taxiCorp';
-    $password = 'Taxi1234'; //local
-    $database = 'taxiCorp';
+    $password = 'Taxicorp1234'; //local
+    $database = 'taxicorp';
 
     //Crear la connexió
     $conexion = mysqli_connect($hostname, $user, $password, $database) or trigger_error(mysqli_error($conexion), E_USER_ERROR);

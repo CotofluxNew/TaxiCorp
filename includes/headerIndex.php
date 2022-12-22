@@ -18,13 +18,13 @@
           </a>
           <ul class="dropdown-menu">
                 <li>
-                  <a class="nav-link" href="#">Alta nuevo taxi</a>
+                  <a class="nav-link" href="altaTaxis.php">Alta nuevo taxi</a>
                 </li>
                 <li>
-                  <a class="nav-link" href="altaTaxis.php">Listado general de taxis</a>
+                  <a class="nav-link" href="listadoTaxis.php">Listado general de taxis</a>
                 </li>
                 <li>
-                   <a class="nav-link" href="#">Modificar datos taxis</a>
+                   <a class="nav-link" href="modificarTaxis.php">Modificar datos taxis</a>
                 </li>
                 <li>
                   <a class="nav-link" href="#">Gestión Caja</a>
